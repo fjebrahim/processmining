@@ -1,0 +1,49 @@
+# Define o caminho do arquivo Excel e o índice da coluna que contém o HTML
+# Assumindo que o arquivo Excel já foi exportado do SQL Developer.
+$filePath = "C:\Temp\Teste03122024.xlsx"
+$columnIndex = 11 # Coluna K (índice baseado em 1, onde A=1, B=2, ..., K=11)
+$linesCount = 2416 # Número de linhas a serem processadas no Excel
+
+# Cria um novo objeto de aplicação Excel (requer o Microsoft Excel instalado)
+$excel = New-Object -ComObject Excel.Application
+
+# Abre a pasta de trabalho (workbook) especificada
+$workbook = $excel.Workbooks.Open($filePath)
+
+# Seleciona a primeira planilha da pasta de trabalho
+$sheet = $workbook.Sheets.Item(1)
+
+# Loop através de cada linha na coluna especificada
+for ($i = 1; $i -le $linesCount; $i++) {
+    # Exibe o progresso da conversão
+    echo "Convertendo linha [${i}]"
+
+    # Obtém o valor da célula na linha e coluna definidas
+    $cellValue = $sheet.Cells.Item($i, $columnIndex).value2
+
+    # Decodifica as entidades HTML (ex: & para &)
+    $decodedHtml = [System.Net.WebUtility]::HtmlDecode($cellValue)
+
+    # Remove tags HTML e entidades HTML usando expressões regulares
+    # O '(?s)<style.*?<\/style>', ' ' remove blocos <style>...</style>
+    # O '<[^>]*>', ' ' remove todas as outras tags HTML
+    # O '&[^;]+;', ' ' remove entidades HTML restantes (ex:  )
+    $text = $decodedHtml -replace '(?s)<style.*?<\/style>', ' ' -replace '<[^>]*>', ' ' -replace '&[^;]+;', ' '
+
+    # Atribui o texto limpo de volta à variável
+    $cellValue = $text
+
+    # Define o valor modificado na célula adjacente (coluna à direita)
+    # Isso cria uma nova coluna com o texto limpo, mantendo a original
+    $sheet.Cells.Item($i, $columnIndex+1).Value2 = $cellValue
+}
+
+# Salva as alterações na pasta de trabalho
+$workbook.Save()
+
+# Fecha a pasta de trabalho
+$workbook.Close()
+
+# Encerra a aplicação Excel
+$excel.Quit()
+
