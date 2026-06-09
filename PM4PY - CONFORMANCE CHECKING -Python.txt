@@ -1,0 +1,183 @@
+﻿import pandas as pd
+import pm4py
+import numpy as np
+from collections import Counter
+
+
+print("A iniciar a análise com o modelo atualizado (COMPRAS_S_DESPACHO.bpmn)...")
+
+
+# ==========================================
+# 1. CARREGAMENTO DOS DADOS
+# ==========================================
+arquivo_csv = "Teste_01_JUn_2026-sem_despacho - Exportar Planilha.csv"
+colunas_reais = [
+   'PROTOCOLO_PROC_EM_TRAMITACAO', 'COL_2', 'COL_3', 'COL_4', 'COL_5',
+   'COL_6', 'COL_7', 'COL_8', 'COL_9', 'COL_10', 'COL_11',
+   'SERIE_NOME', 'DATA_HORA'
+]
+
+
+# Ler o CSV ignorando a 1ª linha defeituosa
+df = pd.read_csv(arquivo_csv, sep=',', encoding='utf-8', names=colunas_reais, skiprows=1)
+
+
+case_col = 'PROTOCOLO_PROC_EM_TRAMITACAO'
+activity_col = 'SERIE_NOME'
+time_col = 'DATA_HORA'
+
+
+# ==========================================
+# 2. DICIONÁRIO EXPANDIDO (CASE SENSITIVE + SEMÂNTICA)
+# ==========================================
+mapeamento_atividades = {
+   # Marcos Principais
+   "Documento de Oficialização da Demanda - DOD": "DOCUMENTO DE OFICIALIZAÇÃO DE DEMANDA - DOD",
+   "Estudos Técnicos Preliminares - ETP": "ESTUDOS TÉCNICOS PRELIMINARES - ETP",
+   "Termo de Referência - TR": "TERMO DE REFERÊNCIA - TR",
+   "Gerenciamento de Riscos de Contratações": "MAPA DE RISCO",
+   "Edital": "EDITAL",
+   "Julgamento": "JULGAMENTO",
+   "Decisão": "DECISÃO",
+   "Parecer": "PARECER",
+   "Minuta": "MINUTA",
+   "Contrato": "CONTRATO",
+   "Certidão": "CERTIDÃO",
+   "Ata de Registro de Preços": "ATA",
+   "Ata": "ATA",
+   "Portaria": "PORTARIA",
+   "Despacho": "DESPACHO",
+  
+   # Atividades de Comunicação e Execução
+   "Informação": "INFORMAÇÃO",
+   "Memorando": "MEMORANDO",
+   "Pesquisa de Preços": "PESQUISA DE PREÇOS",
+   "Proposta": "PROPOSTA",
+   "Publicação": "PUBLICAÇÃO",
+  
+   # Variações de Empenho e Faturação
+   "Pré-Empenho": "PRE-EMPENHO",
+   "Pre-empenho": "PRE-EMPENHO",
+   "Pré-empenho": "PRE-EMPENHO",
+   "Empenho": "NOTA DE EMPENHO",        
+   "Nota de Empenho": "NOTA DE EMPENHO",
+   "Nota Fiscal": "NOTA FISCAL",
+   "Nota fiscal": "NOTA FISCAL"
+}
+
+
+# Aplicar a normalização de nomes na base de dados
+df[activity_col] = df[activity_col].replace(mapeamento_atividades)
+
+
+# Formatação de Datas e remoção de linhas vazias
+df[time_col] = pd.to_datetime(df[time_col], format='%d-%m-%Y %H:%M', errors='coerce')
+df = df.dropna(subset=[time_col, activity_col])
+df = df.sort_values(by=[case_col, time_col])
+
+
+# Converter para o formato matemático do PM4PY
+event_log = pm4py.format_dataframe(df, case_id=case_col, activity_key=activity_col, timestamp_key=time_col)
+
+
+# ==========================================
+# 3. BPMN E CONFORMIDADE (NOVO FICHEIRO)
+# ==========================================
+print("A carregar o modelo e a converter para Rede de Petri...")
+bpmn_file = "COMPRAS_S_DESPACHO.bpmn"  # Nome atualizado do ficheiro
+bpmn_graph = pm4py.read_bpmn(bpmn_file)
+net, initial_marking, final_marking = pm4py.convert_to_petri_net(bpmn_graph)
+
+
+# Cálculos Matemáticos (Replay e Alignments)
+print("A executar Token-based Replay e Alignments (Isto pode demorar alguns segundos)...")
+replay_results = pm4py.conformance_diagnostics_token_based_replay(event_log, net, initial_marking, final_marking)
+alignments_results = pm4py.conformance_diagnostics_alignments(event_log, net, initial_marking, final_marking)
+
+
+# ==========================================
+# 4. EXTRAÇÃO DE ESTATÍSTICAS
+# ==========================================
+total_traces = len(replay_results)
+fit_traces = sum(1 for trace in replay_results if trace['trace_is_fit'])
+avg_fitness = np.mean([trace['trace_fitness'] for trace in replay_results])
+avg_alignment_fitness = np.mean([trace['fitness'] for trace in alignments_results])
+
+
+faltou_fazer = Counter()
+etapa_extra = Counter()
+
+
+for trace in alignments_results:
+   for log_move, model_move in trace['alignment']:
+       if log_move == model_move:
+           continue
+       elif log_move is None or log_move == ">>":
+           if model_move and model_move != ">>" and not model_move.startswith("tau"):
+               faltou_fazer[model_move] += 1
+       elif model_move is None or model_move == ">>":
+           if log_move and log_move != ">>":
+               etapa_extra[log_move] += 1
+
+
+# ==========================================
+# 5. GERADOR DO RELATÓRIO
+# ==========================================
+relatorio = f"""===================================================================
+RELATÓRIO GERENCIAL DE CONFORMIDADE DE PROCESSOS (MODELO V3 - S/ DESPACHO E C/ NOTA FISCAL)
+===================================================================
+
+
+1. RESUMO EXECUTIVO
+-------------------
+- Total de Protocolos Analisados: {total_traces}
+- Processos 100% Aderentes ao Modelo: {fit_traces} ({(fit_traces/total_traces)*100:.2f}%)
+- Trace Fitness Médio: {avg_fitness:.4f} (de 0.0 a 1.0)
+- Alignment Fitness Médio: {avg_alignment_fitness:.4f} (de 0.0 a 1.0)
+
+
+2. DIAGNÓSTICO DE DESVIOS (DETALHAMENTO)
+----------------------------------------
+Abaixo estão listadas as infrações ao fluxo normativo (BPMN), ordenadas por frequência.
+
+
+A) ETAPAS OMITIDAS (Gargalo de Omissão):
+O modelo BPMN exigia a execução, porém a etapa não ocorreu no momento certo ou foi omitida no sistema.
+"""
+
+
+if not faltou_fazer:
+   relatorio += "   -> Nenhuma etapa obrigatória foi omitida.\n"
+else:
+   for atividade, contagem in faltou_fazer.most_common():
+       relatorio += f"   - [FALTA]: '{atividade}' deixou de ser feita {contagem} vezes.\n"
+
+
+relatorio += """
+B) ETAPAS EXTRAS OU NÃO PREVISTAS (Ruído/Retrabalho):
+Atividades que ocorreram no sistema real, mas que são retrabalhos (excesso) ou não existem no desenho do BPMN.
+"""
+
+
+if not etapa_extra:
+   relatorio += "   -> Nenhuma etapa extra identificada.\n"
+else:
+   for atividade, contagem in etapa_extra.most_common(20):
+       relatorio += f"   - [EXCESSO]: '{atividade}' ocorreu {contagem} vezes de forma irregular.\n"
+
+
+relatorio += "\n===================================================================\n"
+
+
+# ==========================================
+# 6. GUARDAR FICHEIRO
+# ==========================================
+print("\n" + relatorio)
+
+
+nome_arquivo_saida = "relatorio_conformidade_FINAL.txt"
+with open(nome_arquivo_saida, "w", encoding="utf-8") as file:
+   file.write(relatorio)
+
+
+print(f"\n[✔️] SUCESSO: O relatório foi guardado como '{nome_arquivo_saida}' na pasta do projeto.")
