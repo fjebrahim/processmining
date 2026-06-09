@@ -1,0 +1,63 @@
+﻿RELATÓRIO GERENCIAL DE CONFORMIDADE DE PROCESSOS (MODELO V3 - S/ DESPACHO E C/ NOTA FISCAL)
+===================================================================
+
+
+1. RESUMO EXECUTIVO
+-------------------
+- Total de Protocolos Analisados: 63
+- Processos 100% Aderentes ao Modelo: 0 (0.00%)
+- Trace Fitness Médio: 0.3253 (de 0.0 a 1.0)
+- Alignment Fitness Médio: 0.4110 (de 0.0 a 1.0)
+
+
+2. DIAGNÓSTICO DE DESVIOS (DETALHAMENTO)
+----------------------------------------
+Abaixo estão listadas as infrações ao fluxo normativo (BPMN), ordenadas por frequência.
+
+
+A) ETAPAS OMITIDAS (Gargalo de Omissão):
+O modelo BPMN exigia a execução, porém a etapa não ocorreu no momento certo ou foi omitida no sistema.
+   - [FALTA]: 'PESQUISA DE PREÇOS' deixou de ser feita 63 vezes.
+   - [FALTA]: 'PROPOSTA' deixou de ser feita 63 vezes.
+   - [FALTA]: 'EDITAL' deixou de ser feita 63 vezes.
+   - [FALTA]: 'PUBLICAÇÃO' deixou de ser feita 63 vezes.
+   - [FALTA]: 'JULGAMENTO' deixou de ser feita 63 vezes.
+   - [FALTA]: 'CONTRATO' deixou de ser feita 60 vezes.
+   - [FALTA]: 'PRE-EMPENHO' deixou de ser feita 52 vezes.
+   - [FALTA]: 'PARECER' deixou de ser feita 51 vezes.
+   - [FALTA]: 'CERTIDÃO' deixou de ser feita 45 vezes.
+   - [FALTA]: 'DECISÃO' deixou de ser feita 44 vezes.
+   - [FALTA]: 'MEMORANDO' deixou de ser feita 39 vezes.
+   - [FALTA]: 'TERMO DE REFERÊNCIA - TR' deixou de ser feita 32 vezes.
+   - [FALTA]: 'MAPA DE RISCO' deixou de ser feita 21 vezes.
+   - [FALTA]: 'INFORMAÇÃO' deixou de ser feita 10 vezes.
+   - [FALTA]: 'MINUTA' deixou de ser feita 8 vezes.
+   - [FALTA]: 'ESTUDOS TÉCNICOS PRELIMINARES - ETP' deixou de ser feita 7 vezes.
+   - [FALTA]: 'DOCUMENTO DE OFICIALIZAÇÃO DE DEMANDA - DOD' deixou de ser feita 5 vezes.
+
+
+B) ETAPAS EXTRAS OU NÃO PREVISTAS (Ruído/Retrabalho):
+Atividades que ocorreram no sistema real, mas que são retrabalhos (excesso) ou não existem no desenho do BPMN.
+   - [EXCESSO]: 'INFORMAÇÃO' ocorreu 143 vezes de forma irregular.
+   - [EXCESSO]: 'TERMO DE REFERÊNCIA - TR' ocorreu 139 vezes de forma irregular.
+   - [EXCESSO]: 'E-mail' ocorreu 111 vezes de forma irregular.
+   - [EXCESSO]: 'PARECER' ocorreu 43 vezes de forma irregular.
+   - [EXCESSO]: 'DECISÃO' ocorreu 39 vezes de forma irregular.
+   - [EXCESSO]: 'Ofício' ocorreu 33 vezes de forma irregular.
+   - [EXCESSO]: 'PORTARIA' ocorreu 32 vezes de forma irregular.
+   - [EXCESSO]: 'Atesto' ocorreu 32 vezes de forma irregular.
+   - [EXCESSO]: 'CERTIDÃO' ocorreu 28 vezes de forma irregular.
+   - [EXCESSO]: 'ATA' ocorreu 25 vezes de forma irregular.
+   - [EXCESSO]: 'MINUTA' ocorreu 22 vezes de forma irregular.
+   - [EXCESSO]: 'CONTRATO' ocorreu 22 vezes de forma irregular.
+   - [EXCESSO]: 'DOCUMENTO DE OFICIALIZAÇÃO DE DEMANDA - DOD' ocorreu 15 vezes de forma irregular.
+   - [EXCESSO]: 'ESTUDOS TÉCNICOS PRELIMINARES - ETP' ocorreu 14 vezes de forma irregular.
+   - [EXCESSO]: 'MAPA DE RISCO' ocorreu 14 vezes de forma irregular.
+   - [EXCESSO]: 'Anexo' ocorreu 10 vezes de forma irregular.
+   - [EXCESSO]: 'MEMORANDO' ocorreu 7 vezes de forma irregular.
+   - [EXCESSO]: 'Ordem de Serviço' ocorreu 6 vezes de forma irregular.
+   - [EXCESSO]: 'Relatório' ocorreu 4 vezes de forma irregular.
+   - [EXCESSO]: 'Voto' ocorreu 3 vezes de forma irregular.
+
+
+===================================================================
