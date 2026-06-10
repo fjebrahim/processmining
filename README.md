@@ -7,9 +7,9 @@
 
 # Os demais arquivos foram utilizados no experimento de Compras Governamentais
 
-4 - COMPRAS_S_DESPACHO.bpmn
-5 - COMPRAS_S_DESPACHO.pdf
-6 - DATASET-03Jun2026.csv
-7 - SQL-Compras.txt
-8 - pca_tese_ebrahim.xlsx
-9 - relatorio_conformidade.txt
+# 4 - COMPRAS_S_DESPACHO.bpmn
+# 5 - COMPRAS_S_DESPACHO.pdf
+# 6 - DATASET-03Jun2026.csv
+# 7 - SQL-Compras.txt
+# 8 - pca_tese_ebrahim.xlsx
+# 9 - relatorio_conformidade.txt
