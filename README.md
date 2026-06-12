@@ -1,6 +1,5 @@
 # processmining
-# Os tres primeiros arquivos forma utilizados na pesquisa - Experimento Autorização de Viagem, artigo publicado em https://ojs.revistadcs.com/index.php/revista/article/view/4864
-
+# Os tres primeiros arquivos forma utilizados na pesquisa - Experimento Autorização de Viagem.
 # 1 - PowerShell_LimpaHTML.ps
 # 2 - Python_SumarizaLog.py
 # 3 - Sql_Banco_SEI.sql
