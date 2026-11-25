@@ -1,0 +1,25 @@
+{
+  "data": "2026-11-25",
+  "python": "3.12.14",
+  "pm4py": "2.7.23.12",
+  "base_sha256": "8273734046267f6a62b0200f3ff6a75fb9a7015d3754c8b683616e9c4dec0df9",
+  "conferencia_sha256": "73137bc60acbe26813c271e467bfcb45f7cc7e34e8fa092db02deffd826604b3",
+  "n_processos": 63,
+  "n_pregoes_comparados": 32,
+  "n_subconjunto_marco_no_corte": 21,
+  "alinhamentos_calculados": 192,
+  "alinhamentos_previstos": 192,
+  "eventos_projetados": 427,
+  "eventos_unicos_log": 3334,
+  "custos": "PM4Py padrão: movimento log/modelo visível 10000; invisível 1; síncrono 0",
+  "algoritmo": "Dijkstra sem heurística; 15 segundos por traço",
+  "critério_institucional": "Contrato ou NE encerra conforme perfil; ATA RP encerra registro de preços; sem exigir entrega posterior",
+  "limitacao": "Projeção documental, não verificação de aprovações, legalidade ou tramitações; referências v05 derivadas e ainda sem validação externa por especialistas.",
+  "base_sha256_normalizada_lf": "c7a8d6b12d73d7265bdbed0c0b779d0d6c7424a01d3ede3b1afad8953831b188",
+  "protecao_publicacao": {
+    "identificadores": "Códigos por caso e por documento, sem chave publicada",
+    "datas": "Deslocamento por caso para origem sintética 01/01/2000; intervalos e empates preservados",
+    "colunas_removidas": "Nomes, descrição do objeto, unidades, IDs SEI originais e links de evidência",
+    "verificacao": "192 alinhamentos idênticos antes e depois do tratamento; comparação individual de métricas, custo e movimentos"
+  }
+}

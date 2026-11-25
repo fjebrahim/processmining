@@ -1,0 +1,13 @@
+﻿subconjunto,ordem,modo,n,calculados,fitness_medio,fitness_mediano,aderencia_integral,movimentos_log,movimentos_modelo
+32_pregoes_observados,id_crescente,agregado,32,32,0.4971867074406412,0.46886446886446886,0,273,70
+32_pregoes_observados,id_crescente,estratificado,32,32,0.5473643026864776,0.5714285714285714,0,264,31
+32_pregoes_observados,id_decrescente,agregado,32,32,0.4877596213688183,0.46886446886446886,0,277,74
+32_pregoes_observados,id_decrescente,estratificado,32,32,0.5376832344856726,0.5477272727272727,0,268,35
+32_pregoes_observados,alternativa_reprodutivel,agregado,32,32,0.4938900041439379,0.47619047619047616,0,275,72
+32_pregoes_observados,alternativa_reprodutivel,estratificado,32,32,0.5441316471840852,0.5527777777777778,0,266,33
+com_marco_observado_ate_corte,id_crescente,agregado,21,21,0.5213953574901785,0.5,0,191,34
+com_marco_observado_ate_corte,id_crescente,estratificado,21,21,0.590876605989388,0.6,0,181,4
+com_marco_observado_ate_corte,id_decrescente,agregado,21,21,0.49909376601565475,0.47619047619047616,0,196,39
+com_marco_observado_ate_corte,id_decrescente,estratificado,21,21,0.567466493406343,0.5555555555555556,0,186,9
+com_marco_observado_ate_corte,alternativa_reprodutivel,agregado,21,21,0.5084353016729799,0.47619047619047616,0,194,37
+com_marco_observado_ate_corte,alternativa_reprodutivel,estratificado,21,21,0.5772926460896386,0.5714285714285714,0,184,7

@@ -1,0 +1,64 @@
+﻿processo,rito,instrumento,marco,janela,documentos_unicos_log,documentos_ate_marco,eventos_projetados,documentos_fora_vocabulario,marco_documental_presente,comparacao_pregao,subconjunto_com_marco_no_corte,tratamento
+CASO_001,Pregão,Termo contratual,2000-07-22T16:00:00,Até 03/06/2026,59,55,14,41,True,True,True,Comparação pareada
+CASO_032,Pregão,Ata RP,2001-06-04T11:11:00,Após 03/06/2026,73,73,15,58,False,True,False,Comparação pareada
+CASO_027,Pregão,Termo contratual,2000-06-04T19:14:00,Até 03/06/2026,81,55,9,46,True,True,True,Comparação pareada
+CASO_003,Pregão,Termo contratual,2000-09-10T17:02:00,Até 03/06/2026,80,60,10,50,True,True,True,Comparação pareada
+CASO_049,Pregão,Termo contratual,2000-08-25T18:24:00,Até 03/06/2026,127,114,21,93,True,True,True,Comparação pareada
+CASO_016,Pregão,Ata RP,2000-11-29T14:16:00,Até 03/06/2026,113,112,20,92,True,True,True,Comparação pareada
+CASO_030,Pregão,Ata RP,2001-05-23T18:40:00,Após 03/06/2026,134,134,36,98,False,True,False,Comparação pareada
+CASO_033,Pregão,Nota de empenho substitutiva,2000-04-23T17:49:00,Até 03/06/2026,54,41,7,34,True,True,True,Comparação pareada
+CASO_058,Pregão,Ata RP,2000-08-12T09:52:00,Até 03/06/2026,61,59,16,43,True,True,True,Comparação pareada
+CASO_048,Pregão,Ata RP,2000-05-14T18:51:00,Até 03/06/2026,56,56,14,42,True,True,True,Comparação pareada
+CASO_015,Pregão,Ata RP,2000-04-23T10:39:00,Até 03/06/2026,83,81,19,62,True,True,True,Comparação pareada
+CASO_011,Pregão,Nota de empenho substitutiva,2000-07-08T11:41:00,Até 03/06/2026,67,59,12,47,False,True,False,Comparação pareada
+CASO_020,Pregão,Ata RP,2000-05-30T16:05:00,Até 03/06/2026,56,56,15,41,True,True,True,Comparação pareada
+CASO_063,Pregão,Ata RP,2000-06-16T17:16:00,Até 03/06/2026,70,69,15,54,True,True,True,Comparação pareada
+CASO_019,Pregão,Nota de empenho substitutiva,2000-11-27T17:47:00,Após 03/06/2026,49,49,9,40,True,True,False,Comparação pareada
+CASO_047,Pregão,Ata RP,2000-08-31T15:48:00,Até 03/06/2026,73,70,20,50,True,True,True,Comparação pareada
+CASO_013,Pregão,Termo contratual,2000-03-22T15:29:00,Até 03/06/2026,53,44,10,34,True,True,True,Comparação pareada
+CASO_023,Pregão,Nota de empenho substitutiva,2000-08-24T17:32:00,Até 03/06/2026,72,69,13,56,True,True,True,Comparação pareada
+CASO_055,Pregão,Termo contratual,2000-02-14T15:45:00,Até 03/06/2026,56,46,10,36,True,True,True,Comparação pareada
+CASO_057,Dispensa,Nota de empenho substitutiva,2000-04-23T11:10:00,Até 03/06/2026,51,48,6,42,True,False,False,Rito/perfil fora das referências executadas
+CASO_052,Dispensa,Nota de empenho substitutiva,2000-01-28T18:03:00,Até 03/06/2026,40,26,6,20,False,False,False,Rito/perfil fora das referências executadas
+CASO_046,Dispensa,Nota de empenho substitutiva,2000-01-31T15:36:00,Até 03/06/2026,36,25,6,19,True,False,False,Rito/perfil fora das referências executadas
+CASO_054,Dispensa,Nota de empenho substitutiva,2000-08-04T12:01:00,Até 03/06/2026,97,86,11,75,True,False,False,Rito/perfil fora das referências executadas
+CASO_056,Pregão,Termo contratual,2001-09-09T16:27:00,Após 03/06/2026,13,13,5,8,False,True,False,Comparação pareada
+CASO_042,Dispensa,Nota de empenho substitutiva,2000-02-28T11:02:00,Até 03/06/2026,42,28,5,23,True,False,False,Rito/perfil fora das referências executadas
+CASO_018,Dispensa,Nota de empenho substitutiva,2000-07-17T17:49:00,Até 03/06/2026,50,36,5,31,True,False,False,Rito/perfil fora das referências executadas
+CASO_012,Pregão,Não localizado,,Sem data,8,8,3,5,False,False,False,Rito/perfil fora das referências executadas
+CASO_026,Pregão,Ata RP,2000-10-03T10:54:00,Até 03/06/2026,70,70,15,55,True,True,True,Comparação pareada
+CASO_050,Inexigibilidade,Nota de empenho substitutiva,2000-05-23T11:05:00,Até 03/06/2026,46,31,11,20,True,False,False,Rito/perfil fora das referências executadas
+CASO_017,Inexigibilidade,Nota de empenho substitutiva,2000-04-09T15:37:00,Até 03/06/2026,43,25,9,16,True,False,False,Rito/perfil fora das referências executadas
+CASO_005,Inexigibilidade,Nota de empenho substitutiva,2000-03-14T14:50:00,Até 03/06/2026,44,28,11,17,True,False,False,Rito/perfil fora das referências executadas
+CASO_021,Inexigibilidade,Nota de empenho substitutiva,2000-04-14T14:41:00,Até 03/06/2026,48,26,8,18,True,False,False,Rito/perfil fora das referências executadas
+CASO_031,Inexigibilidade,Nota de empenho substitutiva,2000-09-02T15:48:00,Até 03/06/2026,40,27,8,19,True,False,False,Rito/perfil fora das referências executadas
+CASO_059,Dispensa,Termo contratual,2000-04-05T16:00:00,Até 03/06/2026,51,40,6,34,True,False,False,Rito/perfil fora das referências executadas
+CASO_060,Pregão,Nota de empenho substitutiva,2000-07-20T17:17:00,Até 03/06/2026,118,96,28,68,False,True,False,Comparação pareada
+CASO_034,Inexigibilidade,Nota de empenho substitutiva,2000-05-11T18:11:00,Até 03/06/2026,49,30,11,19,True,False,False,Rito/perfil fora das referências executadas
+CASO_043,Pregão,Termo contratual,2001-02-17T15:59:00,Após 03/06/2026,64,64,3,61,True,True,False,Comparação pareada
+CASO_038,Inexigibilidade,Nota de empenho substitutiva,2000-07-27T11:15:00,Até 03/06/2026,37,27,8,19,True,False,False,Rito/perfil fora das referências executadas
+CASO_024,Inexigibilidade,Nota de empenho substitutiva,2000-06-29T14:42:00,Até 03/06/2026,38,24,7,17,True,False,False,Rito/perfil fora das referências executadas
+CASO_041,Inexigibilidade,Termo contratual,2000-12-21T10:29:00,Até 03/06/2026,53,42,11,31,True,False,False,Rito/perfil fora das referências executadas
+CASO_025,Não localizado,Não localizado,,Sem data,4,4,3,1,False,False,False,Rito/perfil fora das referências executadas
+CASO_028,Dispensa,Nota de empenho substitutiva,2000-02-02T00:00:00,Até 03/06/2026,47,34,6,28,True,False,False,Rito/perfil fora das referências executadas
+CASO_002,Dispensa,Nota de empenho substitutiva,2000-02-05T16:05:00,Até 03/06/2026,39,26,5,21,True,False,False,Rito/perfil fora das referências executadas
+CASO_037,Pregão,Ata RP,2000-05-23T16:57:00,Até 03/06/2026,47,47,13,34,True,True,True,Comparação pareada
+CASO_010,Dispensa,Nota de empenho substitutiva,2000-02-26T18:02:00,Até 03/06/2026,51,48,8,40,True,False,False,Rito/perfil fora das referências executadas
+CASO_062,Pregão,Termo contratual,,Sem data,1,1,1,0,False,True,False,Comparação pareada
+CASO_022,Pregão,Ata RP,2000-06-06T16:05:00,Até 03/06/2026,56,56,13,43,True,True,True,Comparação pareada
+CASO_008,Pregão,Ata RP,2000-05-12T13:28:00,Até 03/06/2026,61,61,12,49,True,True,True,Comparação pareada
+CASO_007,Inexigibilidade,Nota de empenho substitutiva,2000-05-06T15:29:00,Até 03/06/2026,43,26,7,19,True,False,False,Rito/perfil fora das referências executadas
+CASO_004,Pregão,Nota de empenho substitutiva,2000-08-10T10:07:00,Até 03/06/2026,62,58,24,34,True,True,True,Comparação pareada
+CASO_036,Inexigibilidade,Nota de empenho substitutiva,2000-02-12T11:14:00,Até 03/06/2026,39,25,9,16,True,False,False,Rito/perfil fora das referências executadas
+CASO_014,Pregão,Ata RP,2001-04-11T11:47:00,Após 03/06/2026,8,8,3,5,False,True,False,Comparação pareada
+CASO_029,Não localizado,Nota de empenho substitutiva,2000-04-04T16:26:00,Até 03/06/2026,62,39,5,34,True,False,False,Rito/perfil fora das referências executadas
+CASO_035,Outro,Formalização em processo derivado,2000-07-01T14:44:00,Até 03/06/2026,3,3,1,2,False,False,False,Rito/perfil fora das referências executadas
+CASO_045,Dispensa,Nota de empenho substitutiva,2000-04-24T17:22:00,Até 03/06/2026,38,33,6,27,True,False,False,Rito/perfil fora das referências executadas
+CASO_044,Dispensa,Nota de empenho substitutiva,2000-03-30T16:26:00,Até 03/06/2026,48,43,13,30,True,False,False,Rito/perfil fora das referências executadas
+CASO_006,Outro,Nota de empenho substitutiva,2000-03-04T12:02:00,Até 03/06/2026,105,96,29,67,True,False,False,Rito/perfil fora das referências executadas
+CASO_053,Dispensa,Nota de empenho substitutiva,2000-03-21T14:50:00,Até 03/06/2026,38,27,3,24,False,False,False,Rito/perfil fora das referências executadas
+CASO_009,Pregão,Não localizado,,Sem data,9,9,2,7,False,False,False,Rito/perfil fora das referências executadas
+CASO_039,Pregão,Termo contratual,2000-05-12T18:36:00,Até 03/06/2026,79,66,14,52,True,True,True,Comparação pareada
+CASO_061,Pregão,Termo contratual,2001-01-06T17:02:00,Após 03/06/2026,8,8,6,2,False,True,False,Comparação pareada
+CASO_051,Não localizado,Formalização em processo derivado,2000-02-19T15:22:00,Até 03/06/2026,5,5,3,2,False,False,False,Rito/perfil fora das referências executadas
+CASO_040,Pregão,Termo contratual,2000-09-20T11:08:00,Após 03/06/2026,26,26,5,21,False,True,False,Comparação pareada

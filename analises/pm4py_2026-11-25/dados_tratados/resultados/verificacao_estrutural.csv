@@ -1,0 +1,9 @@
+﻿modelo,camada,soundness_pm4py,estados_alcancaveis,final_alcancavel,todos_estados_alcancam_final,terminais_apenas_final,sem_transicoes_mortas,transicoes_visiveis
+BASE_V04,funcional,True,34,True,True,True,True,28
+BASE_V04,projecao_documental,True,34,True,True,True,True,7
+CONTRATO,funcional,True,33,True,True,True,True,26
+CONTRATO,projecao_documental,True,33,True,True,True,True,7
+NE,funcional,True,28,True,True,True,True,23
+NE,projecao_documental,True,28,True,True,True,True,6
+ARP,funcional,True,26,True,True,True,True,21
+ARP,projecao_documental,True,26,True,True,True,True,6

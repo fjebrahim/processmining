@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="ent_A20">
+        <name>
+          <text>ent_A20</text>
+        </name>
+      </place>
+      <place id="ent_A04">
+        <name>
+          <text>ent_A04</text>
+        </name>
+      </place>
+      <place id="ent_A14">
+        <name>
+          <text>ent_A14</text>
+        </name>
+      </place>
+      <place id="Flow_23">
+        <name>
+          <text>Flow_23</text>
+        </name>
+      </place>
+      <place id="ent_A16a">
+        <name>
+          <text>ent_A16a</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="ent_A18">
+        <name>
+          <text>ent_A18</text>
+        </name>
+      </place>
+      <place id="ent_A13">
+        <name>
+          <text>ent_A13</text>
+        </name>
+      </place>
+      <place id="ent_A19">
+        <name>
+          <text>ent_A19</text>
+        </name>
+      </place>
+      <place id="ent_A15b">
+        <name>
+          <text>ent_A15b</text>
+        </name>
+      </place>
+      <place id="ent_A02b">
+        <name>
+          <text>ent_A02b</text>
+        </name>
+      </place>
+      <place id="ent_A05">
+        <name>
+          <text>ent_A05</text>
+        </name>
+      </place>
+      <place id="ent_A24">
+        <name>
+          <text>ent_A24</text>
+        </name>
+      </place>
+      <place id="Flow_19">
+        <name>
+          <text>Flow_19</text>
+        </name>
+      </place>
+      <place id="ent_A15a">
+        <name>
+          <text>ent_A15a</text>
+        </name>
+      </place>
+      <place id="ent_A07">
+        <name>
+          <text>ent_A07</text>
+        </name>
+      </place>
+      <place id="ent_A08">
+        <name>
+          <text>ent_A08</text>
+        </name>
+      </place>
+      <place id="ent_A21b">
+        <name>
+          <text>ent_A21b</text>
+        </name>
+      </place>
+      <place id="ent_A09">
+        <name>
+          <text>ent_A09</text>
+        </name>
+      </place>
+      <place id="ent_A21a">
+        <name>
+          <text>ent_A21a</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="ent_A17">
+        <name>
+          <text>ent_A17</text>
+        </name>
+      </place>
+      <place id="ent_A12">
+        <name>
+          <text>ent_A12</text>
+        </name>
+      </place>
+      <place id="ent_A03">
+        <name>
+          <text>ent_A03</text>
+        </name>
+      </place>
+      <place id="ent_A02a">
+        <name>
+          <text>ent_A02a</text>
+        </name>
+      </place>
+      <place id="Flow_21">
+        <name>
+          <text>Flow_21</text>
+        </name>
+      </place>
+      <transition id="A21b">
+        <name>
+          <text>A21b</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fd5f6cdd-9370-4e24-90e9-bae95ebe1c79"/>
+      </transition>
+      <transition id="A21a">
+        <name>
+          <text>EDITAL</text>
+        </name>
+      </transition>
+      <transition id="A20">
+        <name>
+          <text>A20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5492d928-5a64-4f66-98fc-a8f8abfa72c7"/>
+      </transition>
+      <transition id="A09">
+        <name>
+          <text>A09</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c96422b6-db26-4bd0-9e6f-f39e88ec064f"/>
+      </transition>
+      <transition id="A08">
+        <name>
+          <text>A08</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9c0fca67-5c26-4dc5-b3e1-25817425a996"/>
+      </transition>
+      <transition id="A14">
+        <name>
+          <text>A14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8b8afcc5-1606-4477-9154-9f9b7620bc97"/>
+      </transition>
+      <transition id="A02b">
+        <name>
+          <text>TR</text>
+        </name>
+      </transition>
+      <transition id="A01">
+        <name>
+          <text>DOD</text>
+        </name>
+      </transition>
+      <transition id="A06">
+        <name>
+          <text>A06</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4a30cb15-6a97-4692-ba35-332844b379b0"/>
+      </transition>
+      <transition id="A17">
+        <name>
+          <text>PRECOS</text>
+        </name>
+      </transition>
+      <transition id="A15b">
+        <name>
+          <text>A15b</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e0f35975-4117-4deb-82df-575d3bc4afb0"/>
+      </transition>
+      <transition id="A03">
+        <name>
+          <text>A03</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7e8d3c28-aeca-4ffd-9240-7905a106e995"/>
+      </transition>
+      <transition id="A02a">
+        <name>
+          <text>ETP</text>
+        </name>
+      </transition>
+      <transition id="A12">
+        <name>
+          <text>A12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="be4094d0-6d7a-4296-9971-da0ce23dd8e4"/>
+      </transition>
+      <transition id="A04">
+        <name>
+          <text>A04</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f6dc9585-9979-47f6-a8b7-38fdcca42062"/>
+      </transition>
+      <transition id="A18">
+        <name>
+          <text>A18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12c5e0ea-14b3-4616-93ce-78448d6e915a"/>
+      </transition>
+      <transition id="A15a">
+        <name>
+          <text>A15a</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5446d296-7006-44b3-937d-c0cb21a3eb0d"/>
+      </transition>
+      <transition id="A19">
+        <name>
+          <text>EMPENHO</text>
+        </name>
+      </transition>
+      <transition id="A07">
+        <name>
+          <text>A07</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ee573ffe-c585-4dc0-89a1-d22d1a15bcc4"/>
+      </transition>
+      <transition id="A16a">
+        <name>
+          <text>A16a</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="abe9bf46-ff74-4aeb-b3aa-14c3092c75ba"/>
+      </transition>
+      <transition id="A05">
+        <name>
+          <text>A05</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4950e037-5a47-4daa-a7f7-17aeedfed34b"/>
+      </transition>
+      <transition id="A24">
+        <name>
+          <text>A24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="46233f61-2f4e-4950-b34c-30b47cb77153"/>
+      </transition>
+      <transition id="A13">
+        <name>
+          <text>A13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b2d195b5-f0c9-45a6-8bca-d7988bcf2ba5"/>
+      </transition>
+      <arc id="140164634093584" source="ent_A09" target="A09"/>
+      <arc id="140164634098192" source="ent_A08" target="A08"/>
+      <arc id="140164634163728" source="A19" target="sink"/>
+      <arc id="140164633928736" source="ent_A15b" target="A15b"/>
+      <arc id="140164634161712" source="A21a" target="ent_A21b"/>
+      <arc id="140164634164784" source="A21b" target="ent_A24"/>
+      <arc id="140164633929792" source="ent_A18" target="A18"/>
+      <arc id="140164634161232" source="A20" target="Flow_23"/>
+      <arc id="140164634164304" source="A07" target="ent_A14"/>
+      <arc id="140164634094688" source="ent_A05" target="A05"/>
+      <arc id="140164634148448" source="Flow_21" target="A06"/>
+      <arc id="140164634163824" source="A12" target="ent_A13"/>
+      <arc id="140164634091664" source="ent_A24" target="A24"/>
+      <arc id="140164634163344" source="A15a" target="ent_A15b"/>
+      <arc id="140164634164880" source="A04" target="ent_A12"/>
+      <arc id="140164634164400" source="A02a" target="ent_A02b"/>
+      <arc id="140164634148544" source="Flow_23" target="A06"/>
+      <arc id="140164633931472" source="ent_A21b" target="A21b"/>
+      <arc id="140164634089168" source="ent_A07" target="A07"/>
+      <arc id="140164634163920" source="A05" target="ent_A20"/>
+      <arc id="140164634164976" source="A17" target="Flow_19"/>
+      <arc id="140164634163440" source="A15b" target="ent_A16a"/>
+      <arc id="140164633932048" source="ent_A02a" target="A02a"/>
+      <arc id="140164634089744" source="ent_A02b" target="A02b"/>
+      <arc id="140164634085136" source="ent_A12" target="A12"/>
+      <arc id="140164634161424" source="A16a" target="ent_A09"/>
+      <arc id="140164634164496" source="A24" target="ent_A15a"/>
+      <arc id="140164634162960" source="A03" target="ent_A04"/>
+      <arc id="140164634148640" source="A08" target="ent_A21a"/>
+      <arc id="140164634162480" source="A06" target="ent_A07"/>
+      <arc id="140164634089792" source="ent_A15a" target="A15a"/>
+      <arc id="140164634165072" source="A05" target="ent_A18"/>
+      <arc id="140164634084704" source="ent_A20" target="A20"/>
+      <arc id="140164634090848" source="ent_A17" target="A17"/>
+      <arc id="140164634087776" source="ent_A04" target="A04"/>
+      <arc id="140164634148208" source="source" target="A01"/>
+      <arc id="140164634164592" source="A09" target="ent_A19"/>
+      <arc id="140164633929600" source="ent_A19" target="A19"/>
+      <arc id="140164634148736" source="A13" target="ent_A02a"/>
+      <arc id="140164633930128" source="ent_A16a" target="A16a"/>
+      <arc id="140164634164112" source="A05" target="ent_A17"/>
+      <arc id="140164634092960" source="ent_A03" target="A03"/>
+      <arc id="140164634148256" source="Flow_19" target="A06"/>
+      <arc id="140164634165168" source="A18" target="Flow_21"/>
+      <arc id="140164634089408" source="ent_A13" target="A13"/>
+      <arc id="140164634164688" source="A02b" target="ent_A05"/>
+      <arc id="140164634084320" source="ent_A21a" target="A21a"/>
+      <arc id="140164634148832" source="A14" target="ent_A08"/>
+      <arc id="140164634087920" source="ent_A14" target="A14"/>
+      <arc id="140164634162672" source="A01" target="ent_A03"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

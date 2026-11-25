@@ -1,0 +1,14 @@
+{
+  "linhas": 3641,
+  "documentos_unicos": 3334,
+  "casos": 63,
+  "alinhamentos": 192,
+  "metricas_individuais_identicas": true,
+  "resumos_identicos": true,
+  "nomes_originais_detectados": 0,
+  "numeros_reais_de_processos_detectados": 0,
+  "links_sei_detectados": 0,
+  "emails_detectados": 0,
+  "datas_calendario_reais_publicadas": false,
+  "chave_correspondencia_publicada": false
+}

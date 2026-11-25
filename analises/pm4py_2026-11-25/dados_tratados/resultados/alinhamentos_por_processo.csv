@@ -1,0 +1,193 @@
+﻿processo,instrumento,ordem,modo,modelo,eventos,marco_no_corte,calculado,fitness,custo,sincronos,somente_log,somente_modelo_visivel
+CASO_001,Termo contratual,id_crescente,agregado,BASE_V04,14,True,True,0.5714285714285714,90021,6,8,1
+CASO_001,Termo contratual,id_crescente,estratificado,CONTRATO,14,True,True,0.55,90020,6,8,1
+CASO_032,Ata RP,id_crescente,agregado,BASE_V04,15,False,True,0.4545454545454546,120021,5,10,2
+CASO_032,Ata RP,id_crescente,estratificado,ARP,15,False,True,0.47619047619047616,110015,5,10,1
+CASO_027,Termo contratual,id_crescente,agregado,BASE_V04,9,True,True,0.625,60021,5,4,2
+CASO_027,Termo contratual,id_crescente,estratificado,CONTRATO,9,True,True,0.6666666666666667,50021,5,4,1
+CASO_003,Termo contratual,id_crescente,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_003,Termo contratual,id_crescente,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_049,Termo contratual,id_crescente,agregado,BASE_V04,21,True,True,0.4285714285714286,160021,6,15,1
+CASO_049,Termo contratual,id_crescente,estratificado,CONTRATO,21,True,True,0.4444444444444444,150021,6,15,0
+CASO_016,Ata RP,id_crescente,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_016,Ata RP,id_crescente,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_030,Ata RP,id_crescente,agregado,BASE_V04,36,False,True,0.2325581395348837,330021,5,31,2
+CASO_030,Ata RP,id_crescente,estratificado,ARP,36,False,True,0.23809523809523814,320015,5,31,1
+CASO_033,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,7,True,True,0.8571428571428572,20021,6,1,1
+CASO_033,Nota de empenho substitutiva,id_crescente,estratificado,NE,7,True,True,0.9230769230769231,10017,6,1,0
+CASO_058,Ata RP,id_crescente,agregado,BASE_V04,16,True,True,0.4347826086956522,130021,5,11,2
+CASO_058,Ata RP,id_crescente,estratificado,ARP,16,True,True,0.5454545454545454,100015,6,10,0
+CASO_048,Ata RP,id_crescente,agregado,BASE_V04,14,True,True,0.47619047619047616,110021,5,9,2
+CASO_048,Ata RP,id_crescente,estratificado,ARP,14,True,True,0.6,80015,6,8,0
+CASO_015,Ata RP,id_crescente,agregado,BASE_V04,19,True,True,0.3846153846153846,160021,5,14,2
+CASO_015,Ata RP,id_crescente,estratificado,ARP,19,True,True,0.48,130015,6,13,0
+CASO_011,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,12,False,True,0.5263157894736843,90021,5,7,2
+CASO_011,Nota de empenho substitutiva,id_crescente,estratificado,NE,12,False,True,0.5555555555555556,80017,5,7,1
+CASO_020,Ata RP,id_crescente,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_020,Ata RP,id_crescente,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_063,Ata RP,id_crescente,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_063,Ata RP,id_crescente,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_019,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,9,False,True,0.75,40021,6,3,1
+CASO_019,Nota de empenho substitutiva,id_crescente,estratificado,NE,9,False,True,0.6666666666666667,50017,5,4,1
+CASO_047,Ata RP,id_crescente,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_047,Ata RP,id_crescente,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_013,Termo contratual,id_crescente,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_013,Termo contratual,id_crescente,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_023,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,13,True,True,0.7,60021,7,6,0
+CASO_023,Nota de empenho substitutiva,id_crescente,estratificado,NE,13,True,True,0.631578947368421,70017,6,7,0
+CASO_055,Termo contratual,id_crescente,agregado,BASE_V04,10,True,True,0.7058823529411764,50021,6,4,1
+CASO_055,Termo contratual,id_crescente,estratificado,CONTRATO,10,True,True,0.75,40021,6,4,0
+CASO_056,Termo contratual,id_crescente,agregado,BASE_V04,5,False,True,0.33333333333333337,80021,2,3,5
+CASO_056,Termo contratual,id_crescente,estratificado,CONTRATO,5,False,True,0.36363636363636365,70021,2,3,4
+CASO_026,Ata RP,id_crescente,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_026,Ata RP,id_crescente,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_060,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,28,False,True,0.2857142857142857,250021,5,23,2
+CASO_060,Nota de empenho substitutiva,id_crescente,estratificado,NE,28,False,True,0.2941176470588235,240017,5,23,1
+CASO_043,Termo contratual,id_crescente,agregado,BASE_V04,3,False,True,0.4,60021,2,1,5
+CASO_043,Termo contratual,id_crescente,estratificado,CONTRATO,3,False,True,0.33333333333333337,60020,2,1,5
+CASO_037,Ata RP,id_crescente,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_037,Ata RP,id_crescente,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_062,Termo contratual,id_crescente,agregado,BASE_V04,1,False,True,0.25,60021,1,0,6
+CASO_062,Termo contratual,id_crescente,estratificado,CONTRATO,1,False,True,0.2857142857142857,50021,1,0,5
+CASO_022,Ata RP,id_crescente,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_022,Ata RP,id_crescente,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_008,Ata RP,id_crescente,agregado,BASE_V04,12,True,True,0.5263157894736843,90021,5,7,2
+CASO_008,Ata RP,id_crescente,estratificado,ARP,12,True,True,0.6666666666666667,60015,6,6,0
+CASO_004,Nota de empenho substitutiva,id_crescente,agregado,BASE_V04,24,True,True,0.3870967741935484,190021,6,18,1
+CASO_004,Nota de empenho substitutiva,id_crescente,estratificado,NE,24,True,True,0.4,180017,6,18,0
+CASO_014,Ata RP,id_crescente,agregado,BASE_V04,3,False,True,0.6,40021,3,0,4
+CASO_014,Ata RP,id_crescente,estratificado,ARP,3,False,True,0.6666666666666667,30015,3,0,3
+CASO_039,Termo contratual,id_crescente,agregado,BASE_V04,14,True,True,0.5714285714285714,90021,6,8,1
+CASO_039,Termo contratual,id_crescente,estratificado,CONTRATO,14,True,True,0.6,80021,6,8,0
+CASO_061,Termo contratual,id_crescente,agregado,BASE_V04,6,False,True,0.46153846153846156,70021,3,3,4
+CASO_061,Termo contratual,id_crescente,estratificado,CONTRATO,6,False,True,0.5,60021,3,3,3
+CASO_040,Termo contratual,id_crescente,agregado,BASE_V04,5,False,True,0.6666666666666667,40021,4,1,3
+CASO_040,Termo contratual,id_crescente,estratificado,CONTRATO,5,False,True,0.7272727272727273,30021,4,1,2
+CASO_001,Termo contratual,id_decrescente,agregado,BASE_V04,14,True,True,0.5714285714285714,90021,6,8,1
+CASO_001,Termo contratual,id_decrescente,estratificado,CONTRATO,14,True,True,0.55,90020,6,8,1
+CASO_032,Ata RP,id_decrescente,agregado,BASE_V04,15,False,True,0.4545454545454546,120021,5,10,2
+CASO_032,Ata RP,id_decrescente,estratificado,ARP,15,False,True,0.47619047619047616,110015,5,10,1
+CASO_027,Termo contratual,id_decrescente,agregado,BASE_V04,9,True,True,0.625,60021,5,4,2
+CASO_027,Termo contratual,id_decrescente,estratificado,CONTRATO,9,True,True,0.6666666666666667,50021,5,4,1
+CASO_003,Termo contratual,id_decrescente,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_003,Termo contratual,id_decrescente,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_049,Termo contratual,id_decrescente,agregado,BASE_V04,21,True,True,0.4285714285714286,160021,6,15,1
+CASO_049,Termo contratual,id_decrescente,estratificado,CONTRATO,21,True,True,0.4444444444444444,150021,6,15,0
+CASO_016,Ata RP,id_decrescente,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_016,Ata RP,id_decrescente,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_030,Ata RP,id_decrescente,agregado,BASE_V04,36,False,True,0.2325581395348837,330021,5,31,2
+CASO_030,Ata RP,id_decrescente,estratificado,ARP,36,False,True,0.23809523809523814,320015,5,31,1
+CASO_033,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,7,True,True,0.8571428571428572,20021,6,1,1
+CASO_033,Nota de empenho substitutiva,id_decrescente,estratificado,NE,7,True,True,0.9230769230769231,10017,6,1,0
+CASO_058,Ata RP,id_decrescente,agregado,BASE_V04,16,True,True,0.4347826086956522,130021,5,11,2
+CASO_058,Ata RP,id_decrescente,estratificado,ARP,16,True,True,0.5454545454545454,100015,6,10,0
+CASO_048,Ata RP,id_decrescente,agregado,BASE_V04,14,True,True,0.47619047619047616,110021,5,9,2
+CASO_048,Ata RP,id_decrescente,estratificado,ARP,14,True,True,0.6,80015,6,8,0
+CASO_015,Ata RP,id_decrescente,agregado,BASE_V04,19,True,True,0.3076923076923077,180021,4,15,3
+CASO_015,Ata RP,id_decrescente,estratificado,ARP,19,True,True,0.4,150015,5,14,1
+CASO_011,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,12,False,True,0.5263157894736843,90021,5,7,2
+CASO_011,Nota de empenho substitutiva,id_decrescente,estratificado,NE,12,False,True,0.5555555555555556,80017,5,7,1
+CASO_020,Ata RP,id_decrescente,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_020,Ata RP,id_decrescente,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_063,Ata RP,id_decrescente,agregado,BASE_V04,15,True,True,0.36363636363636365,140021,4,11,3
+CASO_063,Ata RP,id_decrescente,estratificado,ARP,15,True,True,0.47619047619047616,110015,5,10,1
+CASO_019,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,9,False,True,0.75,40021,6,3,1
+CASO_019,Nota de empenho substitutiva,id_decrescente,estratificado,NE,9,False,True,0.6666666666666667,50017,5,4,1
+CASO_047,Ata RP,id_decrescente,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_047,Ata RP,id_decrescente,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_013,Termo contratual,id_decrescente,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_013,Termo contratual,id_decrescente,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_023,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,13,True,True,0.6,80021,6,7,1
+CASO_023,Nota de empenho substitutiva,id_decrescente,estratificado,NE,13,True,True,0.5263157894736843,90017,5,8,1
+CASO_055,Termo contratual,id_decrescente,agregado,BASE_V04,10,True,True,0.7058823529411764,50021,6,4,1
+CASO_055,Termo contratual,id_decrescente,estratificado,CONTRATO,10,True,True,0.75,40021,6,4,0
+CASO_056,Termo contratual,id_decrescente,agregado,BASE_V04,5,False,True,0.5,60021,3,2,4
+CASO_056,Termo contratual,id_decrescente,estratificado,CONTRATO,5,False,True,0.5454545454545454,50021,3,2,3
+CASO_026,Ata RP,id_decrescente,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_026,Ata RP,id_decrescente,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_060,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,28,False,True,0.2857142857142857,250021,5,23,2
+CASO_060,Nota de empenho substitutiva,id_decrescente,estratificado,NE,28,False,True,0.2941176470588235,240017,5,23,1
+CASO_043,Termo contratual,id_decrescente,agregado,BASE_V04,3,False,True,0.4,60021,2,1,5
+CASO_043,Termo contratual,id_decrescente,estratificado,CONTRATO,3,False,True,0.33333333333333337,60020,2,1,5
+CASO_037,Ata RP,id_decrescente,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_037,Ata RP,id_decrescente,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_062,Termo contratual,id_decrescente,agregado,BASE_V04,1,False,True,0.25,60021,1,0,6
+CASO_062,Termo contratual,id_decrescente,estratificado,CONTRATO,1,False,True,0.2857142857142857,50021,1,0,5
+CASO_022,Ata RP,id_decrescente,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_022,Ata RP,id_decrescente,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_008,Ata RP,id_decrescente,agregado,BASE_V04,12,True,True,0.42105263157894735,110021,4,8,3
+CASO_008,Ata RP,id_decrescente,estratificado,ARP,12,True,True,0.5555555555555556,80015,5,7,1
+CASO_004,Nota de empenho substitutiva,id_decrescente,agregado,BASE_V04,24,True,True,0.3870967741935484,190021,6,18,1
+CASO_004,Nota de empenho substitutiva,id_decrescente,estratificado,NE,24,True,True,0.4,180017,6,18,0
+CASO_014,Ata RP,id_decrescente,agregado,BASE_V04,3,False,True,0.6,40021,3,0,4
+CASO_014,Ata RP,id_decrescente,estratificado,ARP,3,False,True,0.6666666666666667,30015,3,0,3
+CASO_039,Termo contratual,id_decrescente,agregado,BASE_V04,14,True,True,0.47619047619047616,110021,5,9,2
+CASO_039,Termo contratual,id_decrescente,estratificado,CONTRATO,14,True,True,0.5,100021,5,9,1
+CASO_061,Termo contratual,id_decrescente,agregado,BASE_V04,6,False,True,0.46153846153846156,70021,3,3,4
+CASO_061,Termo contratual,id_decrescente,estratificado,CONTRATO,6,False,True,0.5,60021,3,3,3
+CASO_040,Termo contratual,id_decrescente,agregado,BASE_V04,5,False,True,0.6666666666666667,40021,4,1,3
+CASO_040,Termo contratual,id_decrescente,estratificado,CONTRATO,5,False,True,0.7272727272727273,30021,4,1,2
+CASO_001,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,14,True,True,0.5714285714285714,90021,6,8,1
+CASO_001,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,14,True,True,0.55,90020,6,8,1
+CASO_032,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,15,False,True,0.4545454545454546,120021,5,10,2
+CASO_032,Ata RP,alternativa_reprodutivel,estratificado,ARP,15,False,True,0.47619047619047616,110015,5,10,1
+CASO_027,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,9,True,True,0.625,60021,5,4,2
+CASO_027,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,9,True,True,0.6666666666666667,50021,5,4,1
+CASO_003,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_003,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_049,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,21,True,True,0.4285714285714286,160021,6,15,1
+CASO_049,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,21,True,True,0.4444444444444444,150021,6,15,0
+CASO_016,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_016,Ata RP,alternativa_reprodutivel,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_030,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,36,False,True,0.2325581395348837,330021,5,31,2
+CASO_030,Ata RP,alternativa_reprodutivel,estratificado,ARP,36,False,True,0.23809523809523814,320015,5,31,1
+CASO_033,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,7,True,True,0.8571428571428572,20021,6,1,1
+CASO_033,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,7,True,True,0.9230769230769231,10017,6,1,0
+CASO_058,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,16,True,True,0.4347826086956522,130021,5,11,2
+CASO_058,Ata RP,alternativa_reprodutivel,estratificado,ARP,16,True,True,0.5454545454545454,100015,6,10,0
+CASO_048,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,14,True,True,0.47619047619047616,110021,5,9,2
+CASO_048,Ata RP,alternativa_reprodutivel,estratificado,ARP,14,True,True,0.6,80015,6,8,0
+CASO_015,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,19,True,True,0.3076923076923077,180021,4,15,3
+CASO_015,Ata RP,alternativa_reprodutivel,estratificado,ARP,19,True,True,0.4,150015,5,14,1
+CASO_011,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,12,False,True,0.5263157894736843,90021,5,7,2
+CASO_011,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,12,False,True,0.5555555555555556,80017,5,7,1
+CASO_020,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_020,Ata RP,alternativa_reprodutivel,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_063,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_063,Ata RP,alternativa_reprodutivel,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_019,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,9,False,True,0.75,40021,6,3,1
+CASO_019,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,9,False,True,0.6666666666666667,50017,5,4,1
+CASO_047,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,20,True,True,0.37037037037037035,170021,5,15,2
+CASO_047,Ata RP,alternativa_reprodutivel,estratificado,ARP,20,True,True,0.46153846153846156,140015,6,14,0
+CASO_013,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,10,True,True,0.5882352941176471,70021,5,5,2
+CASO_013,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,10,True,True,0.625,60021,5,5,1
+CASO_023,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,13,True,True,0.6,80021,6,7,1
+CASO_023,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,13,True,True,0.5263157894736843,90017,5,8,1
+CASO_055,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,10,True,True,0.7058823529411764,50021,6,4,1
+CASO_055,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,10,True,True,0.75,40021,6,4,0
+CASO_056,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,5,False,True,0.5,60021,3,2,4
+CASO_056,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,5,False,True,0.5454545454545454,50021,3,2,3
+CASO_026,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,15,True,True,0.4545454545454546,120021,5,10,2
+CASO_026,Ata RP,alternativa_reprodutivel,estratificado,ARP,15,True,True,0.5714285714285714,90015,6,9,0
+CASO_060,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,28,False,True,0.2857142857142857,250021,5,23,2
+CASO_060,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,28,False,True,0.2941176470588235,240017,5,23,1
+CASO_043,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,3,False,True,0.4,60021,2,1,5
+CASO_043,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,3,False,True,0.33333333333333337,60020,2,1,5
+CASO_037,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_037,Ata RP,alternativa_reprodutivel,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_062,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,1,False,True,0.25,60021,1,0,6
+CASO_062,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,1,False,True,0.2857142857142857,50021,1,0,5
+CASO_022,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,13,True,True,0.5,100021,5,8,2
+CASO_022,Ata RP,alternativa_reprodutivel,estratificado,ARP,13,True,True,0.631578947368421,70015,6,7,0
+CASO_008,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,12,True,True,0.5263157894736843,90021,5,7,2
+CASO_008,Ata RP,alternativa_reprodutivel,estratificado,ARP,12,True,True,0.6666666666666667,60015,6,6,0
+CASO_004,Nota de empenho substitutiva,alternativa_reprodutivel,agregado,BASE_V04,24,True,True,0.3870967741935484,190021,6,18,1
+CASO_004,Nota de empenho substitutiva,alternativa_reprodutivel,estratificado,NE,24,True,True,0.4,180017,6,18,0
+CASO_014,Ata RP,alternativa_reprodutivel,agregado,BASE_V04,3,False,True,0.6,40021,3,0,4
+CASO_014,Ata RP,alternativa_reprodutivel,estratificado,ARP,3,False,True,0.6666666666666667,30015,3,0,3
+CASO_039,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,14,True,True,0.47619047619047616,110021,5,9,2
+CASO_039,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,14,True,True,0.5,100021,5,9,1
+CASO_061,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,6,False,True,0.46153846153846156,70021,3,3,4
+CASO_061,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,6,False,True,0.5,60021,3,3,3
+CASO_040,Termo contratual,alternativa_reprodutivel,agregado,BASE_V04,5,False,True,0.6666666666666667,40021,4,1,3
+CASO_040,Termo contratual,alternativa_reprodutivel,estratificado,CONTRATO,5,False,True,0.7272727272727273,30021,4,1,2
