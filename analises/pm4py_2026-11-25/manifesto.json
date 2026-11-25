@@ -1,0 +1,82 @@
+{
+  "requirements.txt": {
+    "bytes": 17,
+    "sha256": "70d58b6e7a2db8dcffec38870c2c6dfcc15617f7d1f5a85fa0fa98b5d35d90a1"
+  },
+  "Resultados_PM4Py_Para_Tese.md": {
+    "bytes": 11413,
+    "sha256": "e1ce0fe01d5c3e51624a473444c0b5dd8d4c7c6496714813ac92e05d7451dcf6"
+  },
+  "Resultados_PM4Py_Para_Tese.docx": {
+    "bytes": 42854,
+    "sha256": "6091ffee8a13f15717a4017c1be18331d317f7fe0bf9bcae1cd0b6e13b286409"
+  },
+  "README.md": {
+    "bytes": 2454,
+    "sha256": "ab5bfeaef6a8b4fe8e0c8c39c030bab2829d673545dfe016388a34aae02c6591"
+  },
+  "verificar_pm4py_20261125.py": {
+    "bytes": 16408,
+    "sha256": "7c4c0fb9a5347f28b00624778e7f83cba766d518ac752de1305125638785f4c8"
+  },
+  "resultados/verificacao_estrutural.csv": {
+    "bytes": 587,
+    "sha256": "06331239e11097ef9bce296782b87d25d30486948966b6ae4911aa01776f93e7"
+  },
+  "resultados/mapeamento_documental.csv": {
+    "bytes": 286,
+    "sha256": "81eddcdd45705e2a986eb2740178f1c11c3dc0738b518d240dba93cc901e4339"
+  },
+  "resultados/resumo_comparacao.csv": {
+    "bytes": 1403,
+    "sha256": "74f38dc89b2f7bab3db149521b9439d675a9b7f46219e7b74da4d5a9f343fb3c"
+  },
+  "resultados/controles_semanticos.csv": {
+    "bytes": 644,
+    "sha256": "cc96739faca904e7da5722c2eaeac677a6c5ae796f20f63ade5f6d84ef116412"
+  },
+  "resultados/mapeamento_atividades.csv": {
+    "bytes": 6823,
+    "sha256": "7a1cda6708db011d61d6266352fbab02c8c2fe5388461da9486bd4e4d0ef6dfb"
+  },
+  "modelos/BASE_V04.bpmn": {
+    "bytes": 31364,
+    "sha256": "93c137376a9c292e6525d5d331c3db9089c873ad234be05a805ac95401d4088b"
+  },
+  "modelos/NE_projecao.pnml": {
+    "bytes": 10934,
+    "sha256": "1d978e8a0595637e166710cea36212d78519e0ce31f574da27199059ec7fecd8"
+  },
+  "modelos/CONTRATO_projecao.pnml": {
+    "bytes": 13543,
+    "sha256": "0b26359307cc70abd110455eda73b28760e7bf1912c0b2f7a7e381e107064f88"
+  },
+  "modelos/BASE_V04_projecao.pnml": {
+    "bytes": 13365,
+    "sha256": "6864c4d506f4e901ac8a4c760d7753db7140b441fd157d3db4cd71d8f44d3d7f"
+  },
+  "modelos/ARP.bpmn": {
+    "bytes": 8919,
+    "sha256": "67e64704545b0c9005e04861275c59789d2f864d7f5c426052bdf4a2ed85c1e6"
+  },
+  "modelos/NE.bpmn": {
+    "bytes": 9855,
+    "sha256": "5a6e498dd038962e581366fb695a4e92c59cd2cc21e205bf964534c52e63fa76"
+  },
+  "modelos/ARP_projecao.pnml": {
+    "bytes": 10001,
+    "sha256": "1c21d237e8d2073e8de6f85ed3435e36e4865227e638876e34b7bc6943fe0e89"
+  },
+  "modelos/CONTRATO.bpmn": {
+    "bytes": 12409,
+    "sha256": "17042a7484028c0e26c9ce097a8f6bbc53e3dde3cd77aefc724cf312c61a8f3a"
+  },
+  "fontes/modelos_v04/BPMN_PM4Py_v04_NE_Substitutiva.bpmn": {
+    "bytes": 27414,
+    "sha256": "47dece0a54b30e092b328e8d8a58ba81786880dcf553112f7619077f30d3e1a0"
+  },
+  "fontes/modelos_v04/BPMN_PM4Py_v04_Com_Termo_Contratual.bpmn": {
+    "bytes": 31668,
+    "sha256": "2b453e7eeda3b5f6425571704aa6fa4993af563b40e18af1bbf009f4d9024b0d"
+  }
+}

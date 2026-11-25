@@ -1,0 +1,99 @@
+﻿modelo,atividade_bpmn,rotulo_observavel
+BASE_V04,Formalizar contrato,CONTRATO
+BASE_V04,Publicar edital,[silenciosa: sem correspondência unívoca]
+BASE_V04,Realizar a licitação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Classificar despesa e informar orçamento,[silenciosa: sem correspondência unívoca]
+BASE_V04,Autorizar emissão da nota de empenho,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar edital,EDITAL
+BASE_V04,Determinar providências de formalização e publicação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Autorizar a licitação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar TR,TR
+BASE_V04,Designar gestor do contrato,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar ETP,ETP
+BASE_V04,Encaminhar à DG para aprovação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar DOD,DOD
+BASE_V04,Realizar enquadramento legal da despesa,[silenciosa: sem correspondência unívoca]
+BASE_V04,Minutar portaria da equipe de planejamento,[silenciosa: sem correspondência unívoca]
+BASE_V04,"Encaminhar para SECOM, COFIN e SELIC",[silenciosa: sem correspondência unívoca]
+BASE_V04,Autorizar assinatura do contrato,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar minuta de contrato,[silenciosa: sem correspondência unívoca]
+BASE_V04,Analisar previamente o DOD,[silenciosa: sem correspondência unívoca]
+BASE_V04,Cotar preços,PRECOS
+BASE_V04,Encaminhar para SECONT,[silenciosa: sem correspondência unívoca]
+BASE_V04,Determinar prosseguimento da licitação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Adjudicar o objeto,[silenciosa: sem correspondência unívoca]
+BASE_V04,Homologar a licitação,[silenciosa: sem correspondência unívoca]
+BASE_V04,Instituir equipe de planejamento,[silenciosa: sem correspondência unívoca]
+BASE_V04,Aprovar o DOD,[silenciosa: sem correspondência unívoca]
+BASE_V04,Encaminhar à unidade demandante para execução,[silenciosa: sem correspondência unívoca]
+BASE_V04,Elaborar nota de empenho,EMPENHO
+CONTRATO,Elaborar edital,EDITAL
+CONTRATO,Adjudicar o objeto,[silenciosa: sem correspondência unívoca]
+CONTRATO,Elaborar ETP,ETP
+CONTRATO,Analisar previamente o DOD,[silenciosa: sem correspondência unívoca]
+CONTRATO,Instituir equipe de planejamento,[silenciosa: sem correspondência unívoca]
+CONTRATO,Elaborar nota de empenho,EMPENHO
+CONTRATO,Elaborar minuta de contrato,[silenciosa: sem correspondência unívoca]
+CONTRATO,Formalizar contrato,CONTRATO
+CONTRATO,Autorizar emissão da nota de empenho,[silenciosa: sem correspondência unívoca]
+CONTRATO,Determinar providências de formalização e publicação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Classificar despesa e informar orçamento,[silenciosa: sem correspondência unívoca]
+CONTRATO,Autorizar assinatura do contrato,[silenciosa: sem correspondência unívoca]
+CONTRATO,"Encaminhar para SECOM, COFIN e SELIC",[silenciosa: sem correspondência unívoca]
+CONTRATO,Autorizar a licitação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Cotar preços,PRECOS
+CONTRATO,Aprovar o DOD,[silenciosa: sem correspondência unívoca]
+CONTRATO,Elaborar DOD,DOD
+CONTRATO,Homologar a licitação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Encaminhar para SECONT,[silenciosa: sem correspondência unívoca]
+CONTRATO,Elaborar TR,TR
+CONTRATO,Encaminhar à DG para aprovação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Realizar enquadramento legal da despesa,[silenciosa: sem correspondência unívoca]
+CONTRATO,Determinar prosseguimento da licitação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Realizar a licitação,[silenciosa: sem correspondência unívoca]
+CONTRATO,Minutar portaria da equipe de planejamento,[silenciosa: sem correspondência unívoca]
+CONTRATO,Publicar edital,[silenciosa: sem correspondência unívoca]
+NE,Minutar portaria da equipe de planejamento,[silenciosa: sem correspondência unívoca]
+NE,Elaborar edital,EDITAL
+NE,Adjudicar o objeto,[silenciosa: sem correspondência unívoca]
+NE,Realizar a licitação,[silenciosa: sem correspondência unívoca]
+NE,Publicar edital,[silenciosa: sem correspondência unívoca]
+NE,Elaborar TR,TR
+NE,Determinar providências da formalização por nota de empenho e publicações,[silenciosa: sem correspondência unívoca]
+NE,Aprovar o DOD,[silenciosa: sem correspondência unívoca]
+NE,Emitir nota de empenho como instrumento substitutivo,EMPENHO
+NE,Elaborar ETP,ETP
+NE,Encaminhar para SECONT,[silenciosa: sem correspondência unívoca]
+NE,Determinar prosseguimento da licitação,[silenciosa: sem correspondência unívoca]
+NE,Analisar previamente o DOD,[silenciosa: sem correspondência unívoca]
+NE,Realizar enquadramento legal da despesa,[silenciosa: sem correspondência unívoca]
+NE,Encaminhar à DG para aprovação,[silenciosa: sem correspondência unívoca]
+NE,Autorizar a licitação,[silenciosa: sem correspondência unívoca]
+NE,Classificar despesa e informar orçamento,[silenciosa: sem correspondência unívoca]
+NE,Instituir equipe de planejamento,[silenciosa: sem correspondência unívoca]
+NE,Cotar preços,PRECOS
+NE,Homologar a licitação,[silenciosa: sem correspondência unívoca]
+NE,Autorizar emissão da nota de empenho,[silenciosa: sem correspondência unívoca]
+NE,Elaborar DOD,DOD
+NE,"Encaminhar para SECOM, COFIN e SELIC",[silenciosa: sem correspondência unívoca]
+ARP,Instituir equipe de planejamento,[silenciosa: sem correspondência unívoca]
+ARP,Realizar a licitação,[silenciosa: sem correspondência unívoca]
+ARP,Determinar prosseguimento da licitação,[silenciosa: sem correspondência unívoca]
+ARP,Adjudicar o objeto,[silenciosa: sem correspondência unívoca]
+ARP,Publicar edital,[silenciosa: sem correspondência unívoca]
+ARP,Elaborar DOD,DOD
+ARP,Autorizar a licitação,[silenciosa: sem correspondência unívoca]
+ARP,Elaborar ETP,ETP
+ARP,Analisar previamente o DOD,[silenciosa: sem correspondência unívoca]
+ARP,Elaborar edital,EDITAL
+ARP,Classificar despesa e informar orçamento,[silenciosa: sem correspondência unívoca]
+ARP,Realizar enquadramento legal da despesa,[silenciosa: sem correspondência unívoca]
+ARP,"Encaminhar para SECOM, COFIN e SELIC",[silenciosa: sem correspondência unívoca]
+ARP,Encaminhar para SECONT,[silenciosa: sem correspondência unívoca]
+ARP,Cotar preços,PRECOS
+ARP,Homologar a licitação,[silenciosa: sem correspondência unívoca]
+ARP,Emitir ata de registro de preços,ATA_RP
+ARP,Encaminhar à DG para aprovação,[silenciosa: sem correspondência unívoca]
+ARP,Minutar portaria da equipe de planejamento,[silenciosa: sem correspondência unívoca]
+ARP,Aprovar o DOD,[silenciosa: sem correspondência unívoca]
+ARP,Elaborar TR,TR

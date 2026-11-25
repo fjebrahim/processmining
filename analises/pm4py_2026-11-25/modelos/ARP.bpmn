@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" id="defs_v05_ARP" targetNamespace="https://tre-to.tese/modelos/v05">
+  <bpmn:process id="Process_v05_ARP" name="Referência documental ARP" isExecutable="false">
+    <bpmn:startEvent id="start" name="Demanda identificada">
+      <bpmn:outgoing>Flow_0</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="A01" name="Elaborar DOD">
+      <bpmn:documentation>Atividade de origem na matriz visual: A01. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_0</bpmn:incoming>
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A03" name="Analisar previamente o DOD">
+      <bpmn:documentation>Atividade de origem na matriz visual: A03. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A04" name="Minutar portaria da equipe de planejamento">
+      <bpmn:documentation>Atividade de origem na matriz visual: A04. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A12" name="Aprovar o DOD">
+      <bpmn:documentation>Atividade de origem na matriz visual: A12. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A13" name="Instituir equipe de planejamento">
+      <bpmn:documentation>Atividade de origem na matriz visual: A13. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A02a" name="Elaborar ETP">
+      <bpmn:documentation>Atividade de origem na matriz visual: A02. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A02b" name="Elaborar TR">
+      <bpmn:documentation>Atividade de origem na matriz visual: A02. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A05" name="Encaminhar para SECOM, COFIN e SELIC">
+      <bpmn:documentation>Atividade de origem na matriz visual: A05. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_7</bpmn:incoming>
+      <bpmn:outgoing>Flow_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:parallelGateway id="G01" name="Distribuir análises">
+      <bpmn:incoming>Flow_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_17</bpmn:outgoing>
+      <bpmn:outgoing>Flow_19</bpmn:outgoing>
+      <bpmn:outgoing>Flow_21</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="A17" name="Cotar preços">
+      <bpmn:documentation>Atividade de origem na matriz visual: A17. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_17</bpmn:incoming>
+      <bpmn:outgoing>Flow_18</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A18" name="Classificar despesa e informar orçamento">
+      <bpmn:documentation>Atividade de origem na matriz visual: A18. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_19</bpmn:incoming>
+      <bpmn:outgoing>Flow_20</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A20" name="Realizar enquadramento legal da despesa">
+      <bpmn:documentation>Atividade de origem na matriz visual: A20. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_21</bpmn:incoming>
+      <bpmn:outgoing>Flow_22</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:parallelGateway id="G02" name="Três análises concluídas antes da SECONT">
+      <bpmn:outgoing>Flow_9</bpmn:outgoing>
+      <bpmn:incoming>Flow_18</bpmn:incoming>
+      <bpmn:incoming>Flow_20</bpmn:incoming>
+      <bpmn:incoming>Flow_22</bpmn:incoming>
+    </bpmn:parallelGateway>
+    <bpmn:task id="A06" name="Encaminhar para SECONT">
+      <bpmn:documentation>Atividade de origem na matriz visual: A06. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_9</bpmn:incoming>
+      <bpmn:outgoing>Flow_23</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A07" name="Encaminhar à DG para aprovação">
+      <bpmn:documentation>Atividade de origem na matriz visual: A07. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:outgoing>Flow_10</bpmn:outgoing>
+      <bpmn:incoming>Flow_23</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:task id="A14" name="Autorizar a licitação">
+      <bpmn:documentation>Atividade de origem na matriz visual: A14. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_10</bpmn:incoming>
+      <bpmn:outgoing>Flow_11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A08" name="Determinar prosseguimento da licitação">
+      <bpmn:documentation>Atividade de origem na matriz visual: A08. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_11</bpmn:incoming>
+      <bpmn:outgoing>Flow_12</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A21a" name="Elaborar edital">
+      <bpmn:documentation>Atividade de origem na matriz visual: A21. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_12</bpmn:incoming>
+      <bpmn:outgoing>Flow_13</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A21b" name="Publicar edital">
+      <bpmn:documentation>Atividade de origem na matriz visual: A21. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_13</bpmn:incoming>
+      <bpmn:outgoing>Flow_14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A24" name="Realizar a licitação">
+      <bpmn:documentation>Atividade de origem na matriz visual: A24. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_14</bpmn:incoming>
+      <bpmn:outgoing>Flow_15</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A15a" name="Adjudicar o objeto">
+      <bpmn:documentation>Atividade de origem na matriz visual: A15. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_15</bpmn:incoming>
+      <bpmn:outgoing>Flow_16</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A15b" name="Homologar a licitação">
+      <bpmn:documentation>Atividade de origem na matriz visual: A15. Ver hipóteses da reconstrução.</bpmn:documentation>
+      <bpmn:incoming>Flow_16</bpmn:incoming>
+      <bpmn:outgoing>Flow_24</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="A25" name="Emitir ata de registro de preços">
+      <bpmn:incoming>Flow_24</bpmn:incoming>
+      <bpmn:outgoing>Flow_25</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="end" name="Registro de preços concluído">
+      <bpmn:incoming>Flow_25</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0" sourceRef="start" targetRef="A01" />
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="A01" targetRef="A03" />
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="A03" targetRef="A04" />
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="A04" targetRef="A12" />
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="A12" targetRef="A13" />
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="A13" targetRef="A02a" />
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="A02a" targetRef="A02b" />
+    <bpmn:sequenceFlow id="Flow_7" sourceRef="A02b" targetRef="A05" />
+    <bpmn:sequenceFlow id="Flow_8" sourceRef="A05" targetRef="G01" />
+    <bpmn:sequenceFlow id="Flow_9" sourceRef="G02" targetRef="A06" />
+    <bpmn:sequenceFlow id="Flow_10" sourceRef="A07" targetRef="A14" />
+    <bpmn:sequenceFlow id="Flow_11" sourceRef="A14" targetRef="A08" />
+    <bpmn:sequenceFlow id="Flow_12" sourceRef="A08" targetRef="A21a" />
+    <bpmn:sequenceFlow id="Flow_13" sourceRef="A21a" targetRef="A21b" />
+    <bpmn:sequenceFlow id="Flow_14" sourceRef="A21b" targetRef="A24" />
+    <bpmn:sequenceFlow id="Flow_15" sourceRef="A24" targetRef="A15a" />
+    <bpmn:sequenceFlow id="Flow_16" sourceRef="A15a" targetRef="A15b" />
+    <bpmn:sequenceFlow id="Flow_17" sourceRef="G01" targetRef="A17" />
+    <bpmn:sequenceFlow id="Flow_18" sourceRef="A17" targetRef="G02" />
+    <bpmn:sequenceFlow id="Flow_19" sourceRef="G01" targetRef="A18" />
+    <bpmn:sequenceFlow id="Flow_20" sourceRef="A18" targetRef="G02" />
+    <bpmn:sequenceFlow id="Flow_21" sourceRef="G01" targetRef="A20" />
+    <bpmn:sequenceFlow id="Flow_22" sourceRef="A20" targetRef="G02" />
+    <bpmn:sequenceFlow id="Flow_23" sourceRef="A06" targetRef="A07" />
+    <bpmn:sequenceFlow id="Flow_24" sourceRef="A15b" targetRef="A25" />
+    <bpmn:sequenceFlow id="Flow_25" sourceRef="A25" targetRef="end" />
+  </bpmn:process>
+</bpmn:definitions>
